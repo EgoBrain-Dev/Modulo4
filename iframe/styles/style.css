@@ -3,4 +3,6 @@ iframe{
     height: 300px;
     border-radius: 12px;
     border: 2px solid green;
+    display: block;
+    margin: auto;
 }
