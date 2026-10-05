@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScripts</title>
+</head>
+
+<body>
+
+    <h1>Exemplo de execucao de script em JavaScript</h1>
+
+    <a href="#" onclick="clicou()">Click em mim</a>
+
+    <div id="saida"></div>
+
+    <script>
+        function clicou(){
+            s = window.document.getElementById('saida')
+            s.innerHTML += '<p>Voce clicou em mim</p>'
+        }
+    </script>
+
+</body>
+
+</html>
