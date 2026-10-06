@@ -62,5 +62,5 @@ main {
     border: 2px solid rgba(245, 245, 245, 0.438);
     transform: translate(-3px, -3px);
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.363);
-    transition: trasform .7s, border 1s;
+    transition: transform .7s, border 1s;
 }
