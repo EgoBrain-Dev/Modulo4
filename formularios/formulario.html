@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario com botoes</h1>
+    <h2>Introducao aos botoes, checkbox e radio</h2>
+
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Selecione o genero</legend>
+
+            <input type="radio" name="genero" id="imasc" value="M">
+            <label for="imasc">Masculino</label>
+
+            <input type="radio" name="genero" id="ifem" value="F">
+            <label for="ifem">Femenino</label>
+
+            <input type="radio" name="genero" id="ioutro" value="O">
+            <label for="ioutro">Outro</label>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Escolha o desporto favorito</legend>
+
+            <input type="checkbox" name="ivolei" id="ivolei">
+            <label for="ivolei">Volei</label> <br>
+
+            <input type="checkbox" name="itens" id="itens">
+            <label for="itens">Tens</label> <br>
+
+            <input type="checkbox" name="icriket" id="icriket">
+            <label for="icriket">Criket</label> <br>
+
+            <h2>Escolha o melhor para te</h2>
+            <label for="ibasket">Basketball</label>
+            <input type="checkbox" name="basketball" id="ibasket">
+
+            <label for="inatacao">Natacao</label>
+            <input type="checkbox" name="natacao" id="inatacao">
+
+            <label for="ifsal">Futsal</label>
+            <input type="checkbox" name="futsal" id="ifsal">
+
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
