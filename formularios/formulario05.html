@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Exemplo de formulario</h1>
+
+    <form action="paginas-extras/cadastro.php" method="get">
+        <fieldset>
+            <legend>Cadastro do endereco</legend>
+            <p>
+
+                <label for="in1">Numero 1</label>
+                <input type="number" name="numero1" id="in1" min="1" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+            </p>
+
+            <p>
+                <label for="in2">Numero 2</label>
+                <input type="number" name="numero2" id="in2" min="1" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+            </p>
+
+            <p>
+                <label for="isoma">Soma:</label>
+                <output id="isoma" name="soma" for="in1 in2">0<output>
+            </p>
+
+
+            <p>
+                <label for="inum">Numero:</label>
+                <input type="range" name="numero" id="inum" min="5" max="30" value="10" step="5" oninput="ivalor.innerHTML = Number(inum.value)">
+                <output id="ivalor">10</output>
+            </p>
+
+            <p>
+                <label for="iano">Em que ano voce nasceu?</label>
+                <input type="number" name="ano" id="iano" min="1900" max="2026" oninput="calcIdade()">
+            </p>
+
+            <p>
+                <label for="iidade">A sua idade e:</label>
+                <output id="iidade">0</output>
+            </p>
+
+
+
+
+
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+
+    </form>
+
+    
+<script>
+    function calcIdade() {
+        let actual = new Date().getFullYear()
+        iidade.innerHTML = Number(actual) - Number(iano.value)
+    }
+</script>
+</body>
+
+</html>
