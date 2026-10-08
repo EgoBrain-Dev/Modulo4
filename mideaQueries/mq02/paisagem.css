@@ -1,0 +1,6 @@
+/*Configuaracoes para despositivos em modo paisagem (landsacape)*/
+
+html, body{
+    background-image: url(/mideaQueries/mq02/img/cev-landscape.jpg);
+    background-position: left bottom;
+}

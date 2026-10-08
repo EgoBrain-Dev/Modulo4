@@ -1,0 +1,6 @@
+/*Configurcao para despositivos em retrato (portrait)*/
+
+html, body{
+    background-image: url(/mideaQueries/mq02/img/cev-portrait.jpg);
+    background-position: center bottom;
+}
