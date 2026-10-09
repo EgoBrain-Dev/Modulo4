@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*Telas pequenas ate 640px*/
+
+
+/*Telas de celulares de 640px ate 768px*/
+@media screen and (min-width: 768px) {
+    #burguer {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    a{
+        display: inline-block;
+        margin-right: 15px;
+        background-color: #053d3a;
+        border-top: none;
+        color: #ffe2b8;
+    }
+
+    main{
+        width: 768px;
+    }
+}
+
+
+/*Telas de tablets de 768px ate 1024px*/
+
+
+/*Telas de desktop de 1024px ate 1280px*/
+
+
+/*Telas de garndes wadescreen 1536px ate 1920px*/
