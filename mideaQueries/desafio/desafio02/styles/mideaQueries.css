@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #49a09d;
+    --cor2: #5f2c82;
+}
+
+/*Telas de celulares de 640px ate 768px*/
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+    #login {
+        width: 80vw;
+        height: 50%;
+    }
+
+    #imagem {
+        width: 30%;
+        height: 100%;
+        float: left;
+        background-image: url(/img/porta.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+
+    #formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+/*Telas de desktop ate 1024px*/
+@media screen and (min-width: 1024px) {
+
+    main {
+        background-image: -webkit-radial-gradient (#5f2c82,#49a09d);
+    }
+
+    #login {
+        width: 65vw;
+        height: 55%;
+        background-color: rgb(58, 134, 148);
+        border: 2px solid black;
+
+    }
+
+    #imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+        background-image: url(/img/patio.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left center;
+    }
+
+    #formulario {
+        float: left;
+        width: 50%;
+    }
+
+}
