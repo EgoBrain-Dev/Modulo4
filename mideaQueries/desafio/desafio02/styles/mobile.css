@@ -65,5 +65,57 @@ p{
     font-size: 0.8em;
 }
 
+label{
+    display: none;
+}
 
+div .campo {
+    background-color: #5f2c82;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px;
+    display: block;
+}
+
+
+input[type=submit]{
+    display: block;
+    width: 100%;
+    padding: 7px;
+    margin-top: 30px;
+    border: none;
+    background-color: var(--cor1);
+    color: white;
+    font-size: 1em;
+    cursor: pointer;    
+    border-radius: 5px; 
+
+}
+
+input[type=submit]:hover{
+    background-color: var(--cor2);
+}
+
+.botao{
+    display: block;
+    width: 100%;
+    padding: 7px;
+    margin-top: 10px;
+    border: none;
+    background-color: var(--cor2);
+    color: white;
+    font-size: 1em;
+    cursor: pointer;    
+    border-radius: 5px; 
+    text-decoration: none;
+    text-align: center;
+}
+
+.botao:hover{
+    background-color: var(--cor1);
+}
+
+#envilope{
+   font-size: 1em;
+}
 
